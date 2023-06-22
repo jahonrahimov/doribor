@@ -1,64 +1,65 @@
 import Alert from "@/src/components/common/alert";
 import Logo from "@/src/components/common/logo";
 import Select from "@/src/components/common/select";
+import Dropdown from "@/src/components/common/dropdown";
 
 const Header = () => {
   const options = [
     {
       label: "Андижон тумани",
-      value: "Андижон тумани",
+      href: "/izboskan-tumani",
     },
     {
       label: "Олтинкўл тумани",
-      value: "Олтинкўл тумани",
+      href: "/izboskan-tumani",
     },
     {
       label: "Асака тумани",
-      value: "Асака тумани",
+      href: "/izboskan-tumani",
     },
     {
       label: "Балиқчи тумани",
-      value: "Балиқчи тумани",
+      href: "/izboskan-tumani",
     },
     {
       label: "Бўстон тумани",
-      value: "Бўстон тумани",
+      href: "/izboskan-tumani",
     },
     {
       label: "Булоқбоши тумани",
-      value: "Булоқбоши тумани",
+      href: "/izboskan-tumani",
     },
     {
       label: "Жалақудуқ тумани",
-      value: "Жалақудуқ тумани",
+      href: "/izboskan-tumani",
     },
     {
       label: "Избоскан тумани",
-      value: "Избоскан тумани",
+      href: "/izboskan-tumani",
     },
     {
       label: "Қўрғонтепа тумани",
-      value: "Қўрғонтепа тумани",
+      href: "/izboskan-tumani",
     },
     {
       label: "Марҳамат тумани",
-      value: "Марҳамат тумани",
+      href: "/izboskan-tumani",
     },
     {
       label: "Пахтаобод тумани",
-      value: "Пахтаобод тумани",
+      href: "/izboskan-tumani",
     },
     {
       label: "Улуғнор тумани",
-      value: "Улуғнор тумани",
+      href: "/izboskan-tumani",
     },
     {
       label: "Хўжаобод тумани",
-      value: "Хўжаобод тумани",
+      href: "/izboskan-tumani",
     },
     {
       label: "Шаҳрихон тумани",
-      value: "Шаҳрихон тумани",
+      href: "/izboskan-tumani",
     },
   ];
 
@@ -68,7 +69,7 @@ const Header = () => {
       <div className="bg-white border-gray-200 dark:bg-gray-900 shadow">
         <div className="max-w-screen-xl flex flex-wrap items-center md:justify-start justify-between mx-auto p-4">
           <Logo />
-          <Select options={options} className="w-[200px]" />
+          <Dropdown title="Туманни танланг" options={options} />
         </div>
       </div>
     </>
