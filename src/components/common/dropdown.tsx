@@ -17,7 +17,7 @@ const Dropdown: FC<DropdownProps> = (props) => {
         <>
           <div>
             <Menu.Button className="flex items-center">
-              <div className="text-s">Туманни танланг</div>
+              <div className="text-[15px] font-semibold">Туманни танланг</div>
               <div
                 className={`w-[16px] h-[16px] ${
                   open ? "rotate-180" : ""
