@@ -39,10 +39,13 @@ const Dropdown: FC<DropdownProps> = (props) => {
                 <div key={i}>
                   <Menu.Item>
                     {({ active }) => (
-                      <div className="hover:bg-white w-full text-[14px] px-[14.5px] group flex text-sm rounded-lg h-[40px] items-center cursor-pointer">
+                      <Link
+                        href={item.href}
+                        className="hover:bg-white w-full text-[14px] px-[14.5px] group flex text-sm rounded-lg h-[40px] items-center cursor-pointer"
+                      >
                         <div className="bg-[url('/icon_exit.svg')] bg-no-repeat flex-shrink-0 mr-[8px] w-[20px] h-[20px]" />
                         {item.label}
-                      </div>
+                      </Link>
                     )}
                   </Menu.Item>
                 </div>

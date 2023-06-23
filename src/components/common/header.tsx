@@ -7,31 +7,27 @@ const Header = () => {
   const options = [
     {
       label: "Андижон тумани",
-      href: "/izboskan-tumani",
-    },
-    {
-      label: "Олтинкўл тумани",
-      href: "/izboskan-tumani",
+      href: "/andijon-tumani",
     },
     {
       label: "Асака тумани",
-      href: "/izboskan-tumani",
+      href: "/asaka-tumani",
     },
     {
       label: "Балиқчи тумани",
-      href: "/izboskan-tumani",
+      href: "/baliqchi-tumani",
     },
     {
       label: "Бўстон тумани",
-      href: "/izboskan-tumani",
+      href: "/boston-tumani",
     },
     {
       label: "Булоқбоши тумани",
-      href: "/izboskan-tumani",
+      href: "/buloqboshi-tumani",
     },
     {
       label: "Жалақудуқ тумани",
-      href: "/izboskan-tumani",
+      href: "/jalaquduq-tumani",
     },
     {
       label: "Избоскан тумани",
@@ -39,27 +35,31 @@ const Header = () => {
     },
     {
       label: "Қўрғонтепа тумани",
-      href: "/izboskan-tumani",
+      href: "/qorgontepa-tumani",
     },
     {
       label: "Марҳамат тумани",
-      href: "/izboskan-tumani",
+      href: "/marhamat-tumani",
+    },
+    {
+      label: "Олтинкўл тумани",
+      href: "/oltinkol-tumani",
     },
     {
       label: "Пахтаобод тумани",
-      href: "/izboskan-tumani",
+      href: "/pahtaobod-tumani",
     },
     {
       label: "Улуғнор тумани",
-      href: "/izboskan-tumani",
+      href: "/ulugnor-tumani",
     },
     {
       label: "Хўжаобод тумани",
-      href: "/izboskan-tumani",
+      href: "/xojaobod-tumani",
     },
     {
       label: "Шаҳрихон тумани",
-      href: "/izboskan-tumani",
+      href: "/shahrihon-tumani",
     },
   ];
 

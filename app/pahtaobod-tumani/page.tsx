@@ -1,7 +1,7 @@
 import Card from "@/src/components/common/card";
 import Hero from "@/src/components/common/hero";
 
-const IzboskanRegion = () => {
+const PahtaobodRegion = () => {
   const list = [
     {
       name: "Makro Farm Test",
@@ -13,7 +13,7 @@ const IzboskanRegion = () => {
 
   return (
     <>
-      <Hero title="Избоскан туман аптекалари" />
+      <Hero title="Пахтаобод туман аптекалари" />
       <div className="max-w-screen-xl grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-2 mx-auto px-2">
         {list.map((item, i) => (
           <Card
@@ -29,4 +29,4 @@ const IzboskanRegion = () => {
   );
 };
 
-export default IzboskanRegion;
+export default PahtaobodRegion;
