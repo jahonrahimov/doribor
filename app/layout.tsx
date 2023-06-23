@@ -19,7 +19,7 @@ export default function RootLayout({
     <html className="bg-gray-100" lang="en">
       <body className={inter.className}>
         <Header />
-        <Button title="Дорихонани қўшиш" />
+        {/*<Button title="Дорихонани қўшиш" />*/}
         {children}
       </body>
     </html>

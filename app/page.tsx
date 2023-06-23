@@ -1,4 +1,5 @@
 import Card from "@/src/components/common/card";
+import Hero from "@/src/components/common/hero";
 
 export default function Home() {
   const list = [
@@ -11,16 +12,23 @@ export default function Home() {
   ];
 
   return (
-    <div className="max-w-screen-xl grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-2 mx-auto px-2">
-      {list.map((item, i) => (
-        <Card
-          key={i}
-          name={item.name}
-          schedule={item.schedule}
-          phone={item.phone}
-          location={item.location}
-        />
-      ))}
-    </div>
+    <>
+      <Hero
+        title="Dori Bor справочник"
+        description="Аптекаларга конгирок килинг ва узингизга керагли дориларни топинг"
+        buttonText="Дорихонани қўшиш"
+      />
+      <div className="max-w-screen-xl grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-2 mx-auto px-2">
+        {list.map((item, i) => (
+          <Card
+            key={i}
+            name={item.name}
+            schedule={item.schedule}
+            phone={item.phone}
+            location={item.location}
+          />
+        ))}
+      </div>
+    </>
   );
 }
