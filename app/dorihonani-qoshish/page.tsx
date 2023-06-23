@@ -1,0 +1,21 @@
+import Card from "@/src/components/common/card";
+import Hero from "@/src/components/common/hero";
+
+const BuloqboshiRegion = () => {
+  const list = [
+    {
+      name: "Makro Farm Test",
+      schedule: "9:00-22:00",
+      phone: "+998905715200",
+      location: "485883",
+    },
+  ];
+
+  return (
+    <div className="max-w-screen-xl grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-2 mx-auto px-2">
+      <div>form</div>
+    </div>
+  );
+};
+
+export default BuloqboshiRegion;

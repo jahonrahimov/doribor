@@ -13,7 +13,7 @@ const QorgontepaRegion = () => {
 
   return (
     <>
-      <Hero title="Қўрғонтепа туман аптекалари" />
+      <Hero title="Қўрғонтепа туман аптекалари" buttonText="Дорихонани қўшиш" />
       <div className="max-w-screen-xl grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-2 mx-auto px-2">
         {list.map((item, i) => (
           <Card
