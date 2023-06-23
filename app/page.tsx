@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <>
       <Hero
-        title="Dori Bor справочник"
-        description="Аптекаларга конгирок килинг ва узингизга керагли дориларни топинг"
+        title="Справочник Dori Bor"
+        description="Аптекаларга конгирок килинг ва узингизга керагли дорилар хакида малумот олинг"
         buttonText="Дорихонани қўшиш"
       />
       <div className="max-w-screen-xl grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-2 mx-auto px-2">
