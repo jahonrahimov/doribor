@@ -1,5 +1,6 @@
 import Card from "@/src/components/common/card";
 import Hero from "@/src/components/common/hero";
+import axios, { AxiosRequestConfig } from "axios";
 
 const UlugnorRegion = () => {
   const list = [

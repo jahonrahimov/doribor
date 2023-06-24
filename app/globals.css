@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.form-control {
+    width: 100% !important;
+    border-radius: 0.5rem !important;
+    height: 42px !important;
+}
+
+.react-tel-input .flag-dropdown {
+    border-radius:  0.5rem 0 0 0.5rem !important;
+}
