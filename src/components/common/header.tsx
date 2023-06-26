@@ -65,7 +65,7 @@ const Header = () => {
 
   return (
     <>
-      <Alert title="Хозирда бизнинг справочник Андижон бойича ишламокда." />
+      <Alert title="Ҳозирда бизнинг қўлланма бутун Андижон вилояти бўйлаб ишламоқда" />
       <div className="bg-white border-gray-200 dark:bg-gray-900 shadow">
         <div className="max-w-screen-xl flex flex-wrap items-center md:justify-start justify-between mx-auto p-4">
           <Logo />

@@ -19,7 +19,7 @@ const Hero: FC<HeroProps> = (props) => {
         </h1>
 
         {description && (
-          <p className="mb-8 text-md font-normal text-white lg:text-xl sm:px-16 lg:px-48">
+          <p className="mb-8 text-md font-normal text-white lg:text-2xl sm:px-16 lg:px-48">
             {description}
           </p>
         )}
