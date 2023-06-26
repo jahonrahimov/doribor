@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Dori Bor",
-  description: "Қўлланма Dori Bor",
+  description: "Дорихоналар каталоги",
 };
 
 export default function RootLayout({

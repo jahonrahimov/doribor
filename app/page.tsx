@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Hero
-        title="Қўлланма Dori Bor"
+        title="Дорихоналар каталоги Dori Bor"
         description="Дорихоналарга қўнғироқ қилинг ва ўзингиз учун  керакли бўлган дорилар ҳақида маълумот олинг!"
         buttonText="Дорихонани қўшиш"
       />
