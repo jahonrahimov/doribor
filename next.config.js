@@ -10,6 +10,9 @@ const config = {
 const nextConfig = withPWA({
   dest: "public",
   runtimeCaching,
+  register: true,
+  skipWaiting: true,
+  disable: process.env.NODE_ENV === "development",
 })(config);
 
 module.exports = nextConfig;
