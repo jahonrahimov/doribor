@@ -17,6 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html className="bg-gray-100" lang="en">
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+      </head>
       <body className={inter.className}>
         <Header />
         {/*<Button title="Дорихонани қўшиш" />*/}
