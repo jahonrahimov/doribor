@@ -10,7 +10,6 @@ const config = {
 const nextConfig = withPWA({
   dest: "public",
   runtimeCaching,
-  disable: process.env.NODE_ENV === "development",
 })(config);
 
 module.exports = nextConfig;

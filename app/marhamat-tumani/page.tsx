@@ -1,3 +1,4 @@
+"use client";
 import Card from "@/src/components/common/card";
 import Hero from "@/src/components/common/hero";
 
